@@ -1,4 +1,4 @@
-import React, { Component, useState} from "react";
+import React, {useState} from "react";
 function Counter(){
     const [count, setCount] = useState(0)
     const handleClick = () => setCount(count + 1)
